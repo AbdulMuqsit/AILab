@@ -1,7 +1,10 @@
 ﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" x:Class="SecondLab.MainWindow"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+    xmlns:view="clr-namespace:SecondLab.View"
+    x:Class="SecondLab.MainWindow"
         Title="MainWindow" Height="350" Width="525">
-	<Grid/>
+
+    <view:GraphView></view:GraphView>
 </Window>

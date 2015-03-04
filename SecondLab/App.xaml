@@ -1,6 +1,7 @@
 ﻿<Application x:Class="SecondLab.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModel="clr-namespace:SecondLab.ViewModel"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 

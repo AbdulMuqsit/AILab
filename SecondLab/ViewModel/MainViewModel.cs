@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SecondLab.Model;
 
-namespace SecondLab.Model
+namespace SecondLab.ViewModel
 {
-    class Graph
+    class MainViewModel
     {
-        public List<Node> Nodes { get; set; }
+
     }
 }
